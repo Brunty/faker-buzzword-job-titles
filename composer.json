@@ -1,0 +1,17 @@
+{
+    "require": {
+        "fzaninotto/faker": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brunty\\Faker\\": "src/",
+            "Tests\\Brunty\\Faker\\": "tests/"
+        }
+    }
+}
