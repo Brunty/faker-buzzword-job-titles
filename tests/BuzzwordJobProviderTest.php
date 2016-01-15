@@ -12,7 +12,7 @@ class BuzzwordJobProviderTest extends \PHPUnit_Framework_TestCase
     /** @test */
     public function it_generates_a_three_word_job_title()
     {
-        $jobTitle = BuzzwordJobProvider::jobTitle($extraTitle = true);
+        $jobTitle = BuzzwordJobProvider::jobTitle();
 
         $jobTitleWords = explode(' ', $jobTitle);
         Assert::assertGreaterThanOrEqual(3, $jobTitleWords);
