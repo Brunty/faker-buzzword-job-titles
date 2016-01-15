@@ -1,4 +1,21 @@
 {
+    "name": "brunty/faker-buzzword-jobs",
+    "description": "A Buzzword Job Title provider for Faker.",
+    "keywords": [
+        "faker",
+        "buzzwords",
+        "buzzword",
+        "job titles",
+        "job descriptions"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Brunt",
+            "email": "matt@mfyu.co.uk",
+            "homepage": "https://mfyu.co.uk"
+        }
+    ],
     "require": {
         "fzaninotto/faker": "^1.5"
     },
