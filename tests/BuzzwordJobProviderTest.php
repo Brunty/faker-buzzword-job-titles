@@ -15,7 +15,7 @@ class BuzzwordJobProviderTest extends \PHPUnit_Framework_TestCase
         $jobTitle = BuzzwordJobProvider::jobTitle($extraTitle = true);
 
         $jobTitleWords = explode(' ', $jobTitle);
-        Assert::assertCount(3, $jobTitleWords);
+        Assert::assertGreaterThanOrEqual(3, $jobTitleWords);
     }
 
     /** @test */
@@ -26,6 +26,6 @@ class BuzzwordJobProviderTest extends \PHPUnit_Framework_TestCase
 
         $jobTitle = $faker->jobTitle();
         $jobTitleWords = explode(' ', $jobTitle);
-        Assert::assertCount(3, $jobTitleWords);
+        Assert::assertGreaterThanOrEqual(3, $jobTitleWords);
     }
 }
