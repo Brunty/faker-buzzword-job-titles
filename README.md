@@ -19,3 +19,10 @@ $faker->addProvider(new BuzzwordJobProvider($faker));
                                  
 $jobTitle = $faker->jobTitle();
 ```
+
+## Examples of job titles:
+
+* Holistic Insight Associate
+* Industry Leading Release Reviewer
+* Offline Module Scout
+* Creative Integration Planner
