@@ -1,7 +1,7 @@
 Buzzword Job Title Provider for Faker
 ====================
 
-[![Build Status](https://travis-ci.org/Brunty/faker-buzzword-job-titles.svg?branch=master)](https://travis-ci.org/Brunty/faker-buzzword-job-titles)
+[![Build Status](https://travis-ci.org/Brunty/faker-buzzword-job-titles.svg?branch=develop)](https://travis-ci.org/Brunty/faker-buzzword-job-titles)
 
 
 ## Install
