@@ -14,8 +14,8 @@ $ composer require brunty/faker-buzzword-jobs
 ## Usage
 
 ```php
-$faker = Faker\Factory::create();
-$faker->addProvider(new BuzzwordJobProvider($faker));
+$faker = \Faker\Factory::create();
+$faker->addProvider(new \Brunty\Faker\BuzzwordJobProvider($faker));
                                  
 $jobTitle = $faker->jobTitle();
 ```
