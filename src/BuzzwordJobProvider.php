@@ -325,6 +325,7 @@ class BuzzwordJobProvider extends BaseProvider
         'Researcher',
         'Reviewer',
         'Revolutionary',
+        'Rockstar',
         'Scout',
         'Scouter',
         'Secretary',
