@@ -309,6 +309,7 @@ class BuzzwordJobProvider extends BaseProvider
         'Modernizer',
         'Motivator',
         'Networker',
+        'Ninja',
         'Officer',
         'Operator',
         'Orchestrator',
