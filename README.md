@@ -26,3 +26,9 @@ $jobTitle = $faker->jobTitle();
 * Industry Leading Release Reviewer
 * Offline Module Scout
 * Creative Integration Planner
+
+## Contributing
+
+Although this project is small and mostly a humourous poke at buzz words, openness and inclusivity are taken very seriously. To that end the following code of conduct has been adopted.
+
+[Contributor Code of Conduct](CONTRIBUTING.md)
