@@ -2,6 +2,7 @@ Buzzword Job Title Provider for Faker
 ====================
 
 [![Build Status](https://travis-ci.org/Brunty/faker-buzzword-job-titles.svg?branch=develop)](https://travis-ci.org/Brunty/faker-buzzword-job-titles)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/686edff0-47b0-413a-ad08-bedd66a7084e/mini.png)](https://insight.sensiolabs.com/projects/686edff0-47b0-413a-ad08-bedd66a7084e)
 
 
 ## Install
@@ -26,3 +27,9 @@ $jobTitle = $faker->jobTitle();
 * Industry Leading Release Reviewer
 * Offline Module Scout
 * Creative Integration Planner
+
+## Contributing
+
+Although this project is small and mostly a humourous poke at buzz words, openness and inclusivity are taken very seriously. To that end the following code of conduct has been adopted.
+
+[Contributor Code of Conduct](CONTRIBUTING.md)
