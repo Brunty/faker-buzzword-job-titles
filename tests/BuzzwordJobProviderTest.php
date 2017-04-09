@@ -4,7 +4,6 @@ namespace Tests\Brunty\Faker;
 
 use Brunty\Faker\BuzzwordJobProvider;
 use Faker\Factory;
-use PHPUnit_Framework_Assert as Assert;
 
 class BuzzwordJobProviderTest extends \PHPUnit_Framework_TestCase
 {
@@ -15,7 +14,7 @@ class BuzzwordJobProviderTest extends \PHPUnit_Framework_TestCase
         $jobTitle = BuzzwordJobProvider::jobTitle();
 
         $jobTitleWords = explode(' ', $jobTitle);
-        Assert::assertGreaterThanOrEqual(3, $jobTitleWords);
+        self::assertGreaterThanOrEqual(3, $jobTitleWords);
     }
 
     /** @test */
@@ -26,6 +25,6 @@ class BuzzwordJobProviderTest extends \PHPUnit_Framework_TestCase
 
         $jobTitle = $faker->jobTitle();
         $jobTitleWords = explode(' ', $jobTitle);
-        Assert::assertGreaterThanOrEqual(3, $jobTitleWords);
+        self::assertGreaterThanOrEqual(3, $jobTitleWords);
     }
 }
