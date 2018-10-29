@@ -136,6 +136,7 @@ class BuzzwordJobProvider extends BaseProvider
         'Beneficiary',
         'Benefits',
         'Big Data',
+        'Blockchain',
         'Blogging',
         'Brand',
         'Branding',
